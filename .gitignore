@@ -9,9 +9,14 @@
 *.user
 *.userosscache
 *.sln.docstates
+*._.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+
+# Ignore files starting with ._ 
+._*
+
 
 # Mono auto generated files
 mono_crash.*
