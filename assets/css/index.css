@@ -48,6 +48,7 @@ p {
   font-weight: 700;
   position: relative;
   text-transform: capitalize;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
@@ -86,7 +87,9 @@ p {
 }
 
 .xxs-title { /* h6 */
-  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .y-btn {
@@ -145,4 +148,61 @@ i {
 .card-body i {
   color: #9a9a9a;
   font-size: 1.3rem;
+}
+
+/* Volunteers */
+.y-volunteers .card-img-top {
+  width: 130px;
+  height: 130px;
+}
+.y-volunteers .text-body-secondary a i {
+  font-size: 1rem;
+}
+
+/* Latest News */
+.y-news .card-body a {
+  text-decoration: none;
+  color: #18bfc3;
+  text-transform: capitalize;
+}
+.y-news .card-body a i {
+  color: #18bfc3;
+}
+.y-news .card-body .date-publication {
+  background-color: #18bfc3;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.stats i, .stats span {
+  display: block;
+  color: #fff;
+}
+.stats i {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.stats span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer nav a, .footer address a, .footer address {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 1.2rem 0;
+}
+.footer nav a i, .footer address a i, .footer address i {
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
