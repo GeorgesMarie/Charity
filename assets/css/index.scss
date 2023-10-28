@@ -31,17 +31,18 @@ p {
 }
 .xxl-title { /* h1 */
   letter-spacing: -1px;
-  text-transform: uppercase;
   font-weight: 800;
   font-size: 4rem;
   & span {
-    font-weight: 400;;
+    font-weight: 600;
+    color: $firstColor;
+    font-size: 2rem;
   }
 }
 .xl-title { /* h2 */
   letter-spacing: 1px;
   color: $secondColor;
-  font-size : 3rem;
+  font-size : 2rem;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -145,6 +146,12 @@ i {
     font-size: 1rem;
   }
 }
+#carousel1 .carousel-caption {
+  top: 26%;
+}
+.y-goal {
+  padding: 40px 20px;
+}
 /* Latest News */
 .y-news {
   .card-body {
@@ -167,7 +174,7 @@ i {
   }
 }
 
-/* Footer */
+/* Statistics */
 .stats {
   & i, span {
     display: block;
