@@ -115,9 +115,8 @@ p {
   background-color: #fff !important;
 }
 
-.active-link {
-  color: #fff;
-  background-color: #643a79;
+.active {
+  color: #18bfc3 !important;
 }
 
 .p-details {
@@ -214,4 +213,28 @@ i {
 }
 .footer nav a i, .footer address a i, .footer address i {
   font-size: 1rem;
+}
+
+/* Free Properties */
+.nav-link {
+  font-weight: 500;
+}
+
+.banner-evt {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 362px;
+}
+
+.banner-slide {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.page-link:hover {
+  color: #fff !important;
+  background-color: #18bfc3 !important;
 }/*# sourceMappingURL=index.css.map */
