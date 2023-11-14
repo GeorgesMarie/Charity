@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1, maximum-scale=1" />
   <title>Y-Charity</title>
   <meta name="description" content="A legal entity organized and operated for a collective, public or social benefit">
   <meta name="author" content="Real Hustler">
   <meta name="copyright" content="all right reserved">
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Non-Profit, Organization, Volunteer, Help, Mission, Inspiration, Charity NGO"/>
-  <meta name="author" content="Real Huster"/>
+  <meta name="keywords" content="Non-Profit, Organization, Volunteer, Help, Mission, Inspiration, Charity NGO" />
+  <meta name="author" content="Real Huster" />
   <meta property="og:title" content="Main Title">
   <meta property="og:description" content="A legal entity organized and operated for a collective, public or social benefit">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -19,56 +20,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="assets/css/normalize.min.css"/>
-  <link rel="stylesheet" href="assets/css/index.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/normalize.min.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
   <script src="https://kit.fontawesome.com/ddbbaf4e09.js"></script>
 </head>
+
 <body>
   <!-- Header -->
-  <header class="header">
-    <section class="wrapper">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand d-block" href="index.html"><img src="assets/img/h-logo.png" alt="Logo"></a>
-            <ul class="navbar-nav ml-auto navbar-right mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black" aria-current="page" href="index.html">home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">causes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black" href="events.html">events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">news</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">pages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-black disabled" href="#">contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
-  </header>
-
+  <?php include 'assets/components/nav.php'; ?>
   <!-- Main content -->
   <main class="main bg-body-tertiary">
     <!-- Intro -->
@@ -79,7 +40,7 @@
           <div class="carousel-caption d-md-block">
             <h1 class="xxl-title text-capitalize m-0"><span class="d-block">support the people</span> bloom mankind & kindness</h1>
             <p class="p-details">There are many variations of passages of Lorem Ipsum available, but the
-            majority have suffered alteration in some form.</p>
+              majority have suffered alteration in some form.</p>
             <button class="y-btn">donate now</button>
           </div>
         </div>
@@ -144,7 +105,7 @@
         </section>
       </section>
     </div>
-    
+
     <!-- About Us -->
     <br><br><br><br><br><br><br><br><br><br>
     <section class="y-about bg-body-tertiary my-5 py-5">
@@ -183,36 +144,36 @@
         <div class="container-fluid">
           <div class="row">
             <figure class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 small shadow p-0">
-              <img src="assets/img/home/h-causes.png" class="figure-img img-fluid w-100" alt="Donate Box">
+              <img src="assets/img/home/causes.png" class="figure-img img-fluid w-100" alt="Donate Box">
               <div class="py-2 px-4">
                 <h3 class="md-title">donation form</h3>
                 <figcaption>Sed diam nonummy Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</figcaption>
                 <button class="y-btn" type="button" name="donate-btn">donet now</button>
               </div>
             </figure>
-  
+
             <figure class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 small shadow p-0">
-              <img src="assets/img/home/h-causes_1.png" class="figure-img img-fluid w-100" alt="Donate Box">
+              <img src="assets/img/home/causes_1.png" class="figure-img img-fluid w-100" alt="Donate Box">
               <div class="py-2 px-4">
                 <h3 class="md-title">people help</h3>
                 <figcaption>Sed diam nonummy Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</figcaption>
                 <button class="y-btn" type="button" name="donate-btn">donet now</button>
               </div>
             </figure>
-          
+
             <figure class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 small shadow p-0">
-              <img src="assets/img/home/h-causes_2.png" class="figure-img img-fluid w-100" alt="Donate Box">
+              <img src="assets/img/home/causes_2.png" class="figure-img img-fluid w-100" alt="Donate Box">
               <div class="py-2 px-4">
                 <h3 class="md-title">children education</h3>
                 <figcaption>Sed diam nonummy Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</figcaption>
-              <button class="y-btn" type="button" name="donate-btn">donet now</button>
+                <button class="y-btn" type="button" name="donate-btn">donet now</button>
               </div>
             </figure>
           </div>
         </div>
       </section>
     </section>
-    
+
     <!-- Next Event -->
     <section class="y-event my-5 py-5">
       <section class="wrapper">
@@ -267,19 +228,19 @@
                 <h3 class="md-title">donate dollar</h3>
                 <p class="p-details">Perspiciatis unde omns iste natu error sit vot luptatem is going for</p>
               </div>
-              
+
               <div class="text-center w-50">
                 <i class="fa-solid fa-user"></i>
                 <h3 class="md-title">donate dollar</h3>
                 <p class="p-details">Perspiciatis unde omns iste natu error sit vot luptatem is going for</p>
               </div>
-              
+
               <div class="text-center w-50">
                 <i class="fa-solid fa-gift"></i>
                 <h3 class="md-title">make a aid</h3>
                 <p class="p-details">Perspiciatis unde omns iste natu error sit vot luptatem is going for</p>
               </div>
-              
+
               <div class="text-center w-50">
                 <i class="fa-solid fa-camera"></i>
                 <h3 class="md-title">from media</h3>
@@ -290,7 +251,7 @@
         </div>
       </section>
     </section>
-    
+
     <!-- Statistics -->
     <section class="stats bg-black py-5 my-5">
       <section class="wrapper">
@@ -304,7 +265,7 @@
               <i class="fa-regular fa-hand-pointer mx-auto p-3"></i>
               <figcaption class="text-white text-uppercase"><span>3500</span>causes solves</figcaption>
             </figure>
-              
+
             <figure class="text-center col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <i class="fa-solid fa-hand mx-auto p-3"></i>
               <figcaption class="text-white text-uppercase"><span>1800</span>total volunteers</figcaption>
@@ -328,7 +289,7 @@
         </header>
         <div class="card-group">
           <div class="card pt-5">
-            <img src="assets/img/avatars/h-volunteer.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
+            <img src="assets/img/avatars/volunteer.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
             <div class="card-body">
               <h5 class="card-title">ben jonhson</h5>
               <p class="card-text">volunteer</p>
@@ -343,7 +304,7 @@
             </div>
           </div>
           <div class="card pt-5">
-            <img src="assets/img/avatars/h-volunteer_1.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
+            <img src="assets/img/avatars/volunteer_1.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
             <div class="card-body">
               <h5 class="card-title">jen custine</h5>
               <p class="card-text">volunteer</p>
@@ -358,7 +319,7 @@
             </div>
           </div>
           <div class="card pt-5">
-            <img src="assets/img/avatars/h-volunteer_2.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
+            <img src="assets/img/avatars/volunteer_2.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
             <div class="card-body">
               <h5 class="card-title">ben ismasit</h5>
               <p class="card-text">volunteer</p>
@@ -373,7 +334,7 @@
             </div>
           </div>
           <div class="card pt-5">
-            <img src="assets/img/avatars/h-volunteer_3.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
+            <img src="assets/img/avatars/volunteer_3.png" class="card-img-top mx-auto" alt="Volunteer Avatar">
             <div class="card-body">
               <h5 class="card-title">zen sonyare</h5>
               <p class="card-text">volunteer</p>
@@ -394,8 +355,7 @@
     <!-- Swiper -->
     <div id="carousel2" class="carousel slide bg-black py-5 my-5">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
@@ -488,59 +448,13 @@
   </main>
   <br><br><br><br><br><br><br><br>
   <!-- Footer -->
-  <footer class="footer bg-black pb-5">
-    <section class="wrapper">
-      <section class="container-fluid">
-        <div class="row justify-content-between position-relative">
-          <div class="position-absolute top-0 start-50 translate-middle bg-white small shadow">
-            <div class="d-flex justify-content-between align-items-center flex-wrap p-5">
-              <div class="col-2"><img src="assets/img/c-sponsor.png" class="img-fluid" alt="Sponsor"></div>
-              <div class="col-2"><img src="assets/img/c-sponsor_1.png" class="img-fluid" alt="Sponsor"></div>
-              <div class="col-2"><img src="assets/img/c-sponsor_2.png" class="img-fluid" alt="Sponsor"></div>
-              <div class="col-2"><img src="assets/img/c-sponsor_3.png" class="img-fluid" alt="Sponsor"></div>
-              <div class="col-2"><img src="assets/img/c-sponsor_4.png" class="img-fluid" alt="Sponsor"></div>
-            </div>
-          </div>
-        </div>
-        <br><br><br><br><br><br><br><br>
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mt-5">
-            <a href=""><img src="assets/img/f-logo.png" alt="Footer Logo"></a>
-            <address>
-              Headquarters:
-              5533 NewCapitol Trail PMB# 989 Ubarni DE 77208
-              <a href="tel:+1 (555) 560-95555">Phone: +1 (555) 560-95555</a>
-              <a href="mailto:help@domain.com">Support Email (FAST): help@domain.com</a>
-              <a href="mailto:help@domain.com">Business Email: help@domain.com</a>
-            </address>
-          </div>
-          <div class="col-12 col-sm-6 col-md-14 col-lg-4 col-xl-4 mt-5">
-            <h6 class="xxs-title">information</h6>
-            <nav role="navigation" aria-label="Footer Navigation">
-              <a href=""><i class="fa-solid fa-caret-right"></i> payment options</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> free schedule</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> geeting start</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> identity verification guide</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> card verification guide</a>
-            </nav>
-          </div>
-          <div class="col-12 col-sm-6 col-md-14 col-lg-4 col-xl-4 mt-5">
-            <h6 class="xxs-title">service</h6>
-            <nav role="navigation" aria-label="Footer Navigation">
-              <a href=""><i class="fa-solid fa-caret-right"></i> donate option</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> current rating</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> buy and sell</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> live video watching</a>
-              <a href=""><i class="fa-solid fa-caret-right"></i> easy to api server</a>
-            </nav>
-          </div>
-        </div>
-      </section>
-    </section>
-  </footer>
+  <?php include 'assets/components/footer.php'; ?>
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
+  <!-- Signature -->
+  <?php include 'assets/components/sign.php'; ?>
 </body>
+
 </html>

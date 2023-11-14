@@ -237,4 +237,19 @@ i {
 .page-link:hover {
   color: #fff !important;
   background-color: #18bfc3 !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+}
+
+.goal-bg {
+  background-color: #18bfc3;
+}
+
+.btn-goal {
+  background-color: #fff;
+  color: #18bfc3;
 }/*# sourceMappingURL=index.css.map */

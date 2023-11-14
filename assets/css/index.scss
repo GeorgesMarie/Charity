@@ -114,7 +114,6 @@ p {
   margin-top: 10px;
   color: #9a9a9a;
 }
-
 i {
   color: $firstColor;
   font-size: 2rem;
@@ -225,4 +224,16 @@ i {
     color: #fff !important;
     background-color: $firstColor !important;
   }
+}
+.carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+}
+.goal-bg {
+  background-color: $firstColor;
+}
+.btn-goal {
+  background-color: #fff;
+  color: $firstColor;
 }
